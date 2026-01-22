@@ -24,3 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.section-title {
+  @apply text-2xl font-semibold;
+}
+
+.section-text {
+  @apply mt-2 max-w-2xl text-neutral-400;
+}
+
+.card {
+  @apply rounded-xl border border-neutral-800 p-6 bg-neutral-900 hover:border-neutral-700 transition;
+}
+
+.badge {
+  @apply px-3 py-1 rounded-full bg-neutral-800 text-neutral-300 text-xs;
+}
